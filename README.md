@@ -3,11 +3,11 @@
 Na ultima aula aprendemos sobre funções, como criar-las utilizando formatos como: declaration, expression e arrow. Primeiro, devemos entender o que é uma função e como ela se comporta. 
 
 As funções te permitem uma melhor organização, escalabilidade e eficiencia do codigo. As funções são um conjunto de codigos reutilizaveis e são executadas quando "chamadas" ou "invocadas". Ex:
-
+```js
 function minhaFuncao(p1, p2) {
   return p1 * p2;
 }
-
+```
 Em seguida, devemos entender como é a sintaxe da função em JS. Uma função é definida com a palavra-chave FUNCTION, seguido pelo nome da função, seguido por parenteses, seguidos por colchetes.
 
 O nome segue as regras de definiçao de uma variavel(letras, numeros...).
