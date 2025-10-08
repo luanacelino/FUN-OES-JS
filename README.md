@@ -34,13 +34,13 @@ function EXPRESSION
 
 Aqui, a funçao é atribuida a uma variavel. Ela não é elevada, então precisa ser declarada antes de ser  usada. Ex:
 
-
+```js
 saudacao = function() {
   console.log("Olá, Fulano!");
 };
 
 saudacao();
-
+```
 
 function ARROW:
 
