@@ -29,7 +29,7 @@ FUNÇAO SIMPLES
 ```js
 saudacao(); 
 function saudacao() {
-  console.log("Olá, Fulano!");
+  console.log("Olá, Fulano!"); // A saida sera: "Olá, Fulano!"
 }
 ```
 
@@ -39,7 +39,7 @@ FUNÇAO COM CALCULO
 function soma (a, b){
   return a + b;
 }
-console.log(soma(5, 3));
+console.log(soma(5, 3)); // A saida sera: 8
 ```
 
 FUNÇAO COM CONDICIONAL
@@ -53,7 +53,7 @@ function verificarMaiorIdade(idade){
   }
 }
 
-console.log(verificarMaiorIdade(19));
+console.log(verificarMaiorIdade(19)); // A saida sera: "voce é maior de idade."
 ```
 
 function EXPRESSION
@@ -67,7 +67,7 @@ saudacao = function() {
   console.log("Olá, Fulano!");
 };
 
-saudacao();
+saudacao(); // A saisa será: "Olá, Fulano!"
 ```
 
 FUNÇAO EXPRESSAO NOMEADA
@@ -78,9 +78,10 @@ fatorial = function calcFatorial(n){
     return n * calcFatorial( n - 1);
 };
 
-console.log(fatorial(5));
+console.log(fatorial(5)); // A saida será: 120
 ```
 
+Aqui, a funçao tem um nome(calcFatorial), mas ele só é usado dentro da propria funçao para chamadas recursivas. A variavel fatorial é usada para acessar a funçao externamente
 
 function ARROW:
 
@@ -96,8 +97,8 @@ dobro = (n) => {
   return resultado;
 };
 
-console.log(somar(3, 4)); 
-console.log(dobro(5));    
+console.log(somar(3, 4)); // A saida sera: 7
+console.log(dobro(5));  // A saida sera: 10  
 
 ```
 
