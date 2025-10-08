@@ -47,7 +47,7 @@ function ARROW:
 
 É uma forma mais curta e moderna(ES6+) de escrever funçoes. Ela não tem seu proprio this, herdando o this do escopo onde está. Ex:
 
-
+```js
 somar = (a, b) => a + b;
 
 
@@ -59,7 +59,7 @@ dobro = (n) => {
 console.log(somar(3, 4)); 
 console.log(dobro(5));    
 
-
+```
 
 
 
