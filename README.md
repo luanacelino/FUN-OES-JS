@@ -15,9 +15,9 @@ O nome segue as regras de definiçao de uma variavel(letras, numeros...).
 Os parametros opcionais são listados entre parenteses(p1, p2...)
 
 O código a ser executado está listado entre chaves{código}. Ex:
-
+```js
 function nome(p1, p2, p3) { // código }
-
+```
 Agora vamos falar sobre os formatos, que são esses: declaration, expression e arrow.
 
 A começar pela function DECLARATION:
