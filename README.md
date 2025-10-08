@@ -60,6 +60,8 @@ function EXPRESSION
 
 Aqui, a funçao é atribuida a uma variavel. Ela não é elevada, então precisa ser declarada antes de ser  usada. Ex:
 
+FUNÇAO SIMPLES
+
 ```js
 saudacao = function() {
   console.log("Olá, Fulano!");
@@ -67,6 +69,18 @@ saudacao = function() {
 
 saudacao();
 ```
+
+FUNÇAO EXPRESSAO NOMEADA
+
+```js
+fatorial = function calcFatorial(n){
+  if (n <= 1) return 1;
+    return n * calcFatorial( n - 1);
+};
+
+console.log(fatorial(5));
+```
+
 
 function ARROW:
 
