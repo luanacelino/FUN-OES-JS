@@ -23,12 +23,12 @@ Agora vamos falar sobre os formatos, que são esses: declaration, expression e a
 A começar pela function DECLARATION:
 
 É a forma classica de declarar funçoes em JS. Ela é elevada(hoisted), ou seja, o JavaScript "move" essa declaraçao para o topo do código, o que permite chama-la antes mesmo de ser declarada. Ex:
-
+```js
 saudacao(); 
 function saudacao() {
   console.log("Olá, Fulano!");
 }
-
+```
 
 function EXPRESSION
 
